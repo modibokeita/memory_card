@@ -1,0 +1,47 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2px;
+
+    background-color: hsla(207, 78%, 59%, 0.623);
+
+}
+.card{
+    border: 1px solid #333;
+    margin-top: 50px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: hsla(0, 3%, 26%, 0.844);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.card:hover{
+    background: hsla(0, 15%, 80%, 0.844);
+}
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: hsla(129, 74%, 63%, 0.623);
+
+}
+.scoreboard p{
+    background-color: hsla(0, 52%, 54%, 0.9);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin: 10px;
+}
